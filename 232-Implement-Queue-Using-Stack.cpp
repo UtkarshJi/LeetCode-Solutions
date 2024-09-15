@@ -1,3 +1,5 @@
+//this is just the function, paste it to pass the test cases
+
 class MyQueue {
     private:
         std::vector<int> s1, s2;
