@@ -1,7 +1,7 @@
 class MyQueue {
     private:
         std::vector<int> s1, s2;
-
+ 
     public:
         MyQueue() {}
 
