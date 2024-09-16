@@ -1,3 +1,5 @@
+//this is the whole code, you might need to use only the function to pass the test cases.
+
 #include<iostream>
 #include<vector>
 using namespace std;
