@@ -1,4 +1,4 @@
-//this is just the strstr function, you might need yo make some chnages to make your ccode run
+//this is just the strstr function, you might need to make some chnages to make your code run
 class Solution {
 public:
     int strStr(string haystack, string needle) {
