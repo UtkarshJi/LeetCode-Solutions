@@ -1,3 +1,4 @@
+//this is just the strstr function
 class Solution {
 public:
     int strStr(string haystack, string needle) {
