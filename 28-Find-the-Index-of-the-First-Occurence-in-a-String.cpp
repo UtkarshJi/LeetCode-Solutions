@@ -7,7 +7,7 @@ public:
         }
         int len1= haystack.length();
         int len2= needle.length();
-
+ 
         if(len2>len1){
             return -1;
         }
