@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
-        if (n < 2) return 0; // If there are fewer than 2 prices, return 0
+        if (n < 2) return 0; // If there are fewer than 2 prices, return 0 
 
         int small_num = prices[0]; // Initialize the smallest number
         int max_profit = 0;        // Initialize the max profit
