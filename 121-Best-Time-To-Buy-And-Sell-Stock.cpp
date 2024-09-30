@@ -6,7 +6,7 @@ public:
 
         int small_num = prices[0]; // Initialize the smallest number
         int max_profit = 0;        // Initialize the max profit
-
+ 
         // Loop through prices
         for (int i = 1; i < n; i++) {
             // Calculate profit if selling on day i
