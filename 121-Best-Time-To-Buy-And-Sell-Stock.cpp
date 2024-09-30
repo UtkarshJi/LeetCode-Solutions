@@ -18,7 +18,7 @@ public:
             }
 
             // Update the smallest number if a smaller value is found
-            if (prices[i] < small_num) {
+            if (prices[i] < small_num) { 
                 small_num = prices[i];
             }
         }
