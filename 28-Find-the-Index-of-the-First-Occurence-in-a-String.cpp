@@ -9,7 +9,7 @@ public:
         int len2= needle.length();
  
         if(len2>len1){
-            return -1;
+            return -1; 
         }
 
         for(int i=0; i<len1-len2+1; i++){
