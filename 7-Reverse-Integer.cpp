@@ -4,7 +4,7 @@ public:
         long reversed = 0;  // Use long to temporarily store the reversed number
         
         while (x != 0) {
-            int digit = x % 10;
+            int digit = x % 10; 
             reversed = reversed * 10 + digit;
             x /= 10;
             
