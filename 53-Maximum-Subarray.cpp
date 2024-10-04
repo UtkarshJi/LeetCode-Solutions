@@ -7,7 +7,7 @@ public:
             currentSum = (nums[i] > currentSum + nums[i]) ? nums[i] : currentSum + nums[i];
             maxSum = (currentSum > maxSum) ? currentSum : maxSum;
         }
- 
+  
         return maxSum;
     }
 };
