@@ -2,7 +2,7 @@ class Solution {
 public:
     int minLength(string s) {
         stack<char> st;
-        int n = s.size();
+        int n = s.size(); 
         for(int i=0; i<n; i++){
             if(s[i]=='B' && !st.empty() && st.top()=='A'){
                 st.pop();
