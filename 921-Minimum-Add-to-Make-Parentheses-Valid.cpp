@@ -10,7 +10,7 @@ public:
             } 
             else if(c == ')') {
                 if(close > 0) {
-                    close--;
+                    close--; 
                 } 
                 else {
                     open++;
