@@ -4,7 +4,7 @@ public:
     if (nums.empty()) return 0;
      
     sort(nums.begin(), nums.end());
-    int longest_streak = 1, current_streak = 1;
+    int longest_streak = 1, current_streak = 1; 
     
     for (int i = 1; i < nums.size(); i++) {
         if (nums[i] != nums[i-1]) {
