@@ -2,7 +2,7 @@ class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
     if (nums.empty()) return 0;
-    
+     
     sort(nums.begin(), nums.end());
     int longest_streak = 1, current_streak = 1;
     
