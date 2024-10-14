@@ -8,7 +8,7 @@ public:
     
     for (int i = 1; i < nums.size(); i++) {
         if (nums[i] != nums[i-1]) {
-            if (nums[i] == nums[i-1] + 1) {
+            if (nums[i] == nums[i-1] + 1) { 
                 current_streak++;
             } else {
                 longest_streak = max(longest_streak, current_streak);
